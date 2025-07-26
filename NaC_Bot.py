@@ -35,10 +35,10 @@ class NaCGameBot:
     @staticmethod
     def get_difficulty_keyboard():
         return InlineKeyboardMarkup(row_width=3).add(
-            InlineKeyboardButton("Легкий", callback_data="difficulty_easy"),
-            InlineKeyboardButton("Средний", callback_data="difficulty_medium"),
-            InlineKeyboardButton("Сложный", callback_data="difficulty_hard"),
-            InlineKeyboardButton("Непобедимый", callback_data="difficulty_impossible")
+            InlineKeyboardButton("Легкий (1 🪙)", callback_data="difficulty_easy"),
+            InlineKeyboardButton("Средний (2 🪙)", callback_data="difficulty_medium"),
+            InlineKeyboardButton("Сложный (3 🪙)", callback_data="difficulty_hard"),
+            InlineKeyboardButton("Непобедимый (4 🪙)", callback_data="difficulty_impossible")
         )
 
     def check_winner(self):
