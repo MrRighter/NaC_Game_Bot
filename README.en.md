@@ -3,7 +3,7 @@
 [![Русский](https://img.shields.io/badge/README-Русский-red?logo=google-translate)](README.md)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-### This is a simple bot on Aiogram for fun and a little programming practice 👨‍💻
+### Just an interesting and unusual project to add to my collection 👨‍💻
 
 You can play with the Bot, which has 4 difficulty levels: from easy to impossible. All results are stored in the `sqlite3` database. The bot can also be added to a group, where it organizes game battles between willing participants.
 
